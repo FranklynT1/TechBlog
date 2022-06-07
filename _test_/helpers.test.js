@@ -24,6 +24,6 @@ test('format_url() returns a simplified url string', () => {
     const url3 = format_url('https://www.google.com?q=hello');
   
     expect(url1).toBe('test.com');
-    expect(url2).toBe('asomeness.com');
+    expect(url2).toBe('awsomeness.com');
     expect(url3).toBe('google.com');
 });
